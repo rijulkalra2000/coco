@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Coco — primary mark, light variant (Apple-style)
+
+  Design rationale:
+    • White squircle background
+    • Two interlocked C-arcs in pure black — maximum legibility, no decoration
+    • No gradient (Apple light mode = monochrome restraint)
+    • Same geometry / proportions as dark variant
+    • Squircle (Apple app-icon superellipse)
+    • Round line caps, single stroke weight
+
+  Use this when displayed on light backgrounds (GitHub light theme, white print, etc.)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Coco">
+
+  <!-- Squircle background — white -->
+  <path d="M256 0
+           C 432 0, 512 80, 512 256
+           C 512 432, 432 512, 256 512
+           C 80 512, 0 432, 0 256
+           C 0 80, 80 0, 256 0 Z"
+        fill="#FFFFFF"/>
+
+  <!-- C #1: anchor, pure black -->
+  <path d="M 232 158
+           A 100 100 0 1 0 232 358"
+        stroke="#0A0F1F"
+        stroke-width="24"
+        stroke-linecap="round"
+        fill="none"/>
+
+  <!-- C #2: accent, pure black (no gradient on light variant) -->
+  <path d="M 280 158
+           A 100 100 0 1 1 280 358"
+        stroke="#0A0F1F"
+        stroke-width="24"
+        stroke-linecap="round"
+        fill="none"/>
+</svg>

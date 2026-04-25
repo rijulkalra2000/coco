@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Coco — primary mark, v3 (Apple philosophy + Apple Intelligence palette)
+
+  Color reasoning (Apple-style restraint):
+    • Anchor color: pure white — primary, immovable, the brand voice
+    • Accent: Apple Intelligence-inspired gradient (lavender → sky → mint)
+      - These three hues are pulled from Apple's iOS 26 "Apple Intelligence"
+        identity (the shimmering ring around Siri).
+      - Used on ONE arc only — not both — to preserve optical hierarchy.
+      - Saturation kept low; values stay close to white to feel premium-soft,
+        not poppy.
+    • Background: deep midnight (#0A0F1F), not pure black — softer eye contact
+
+  Geometry:
+    • Squircle (Apple app-icon superellipse) — not rounded rectangle
+    • Two open C-arcs interlocked — minimal "team / orchestration" semantic
+    • Optical centering (down 2px) for visual balance
+    • Single weight, round caps, no decoration
+    • Generous negative space
+
+  Scales cleanly from 16×16 favicon to billboard.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Coco">
+  <defs>
+    <!-- Apple Intelligence-inspired gradient: lavender → sky → mint.
+         Diagonal, top-left to bottom-right, for a subtle shimmer feel. -->
+    <linearGradient id="intelligence" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C2A8FF"/>
+      <stop offset="50%" stop-color="#7FB8FF"/>
+      <stop offset="100%" stop-color="#A6F0CD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle background — Apple superellipse approximation -->
+  <path d="M256 0
+           C 432 0, 512 80, 512 256
+           C 512 432, 432 512, 256 512
+           C 80 512, 0 432, 0 256
+           C 0 80, 80 0, 256 0 Z"
+        fill="#0A0F1F"/>
+
+  <!-- C #1: anchor, pure white -->
+  <path d="M 232 158
+           A 100 100 0 1 0 232 358"
+        stroke="#FFFFFF"
+        stroke-width="24"
+        stroke-linecap="round"
+        fill="none"/>
+
+  <!-- C #2: accent, Apple Intelligence gradient — interlocked with C#1 -->
+  <path d="M 280 158
+           A 100 100 0 1 1 280 358"
+        stroke="url(#intelligence)"
+        stroke-width="24"
+        stroke-linecap="round"
+        fill="none"/>
+</svg>
