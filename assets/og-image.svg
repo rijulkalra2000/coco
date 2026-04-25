@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1d3a"/>
+      <stop offset="100%" stop-color="#1a73e8"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+
+  <text x="80" y="160"
+        font-family="'SF Mono', 'Menlo', 'Monaco', 'Courier New', monospace"
+        font-size="180" font-weight="700"
+        fill="#ffffff" letter-spacing="-8">
+    Coco
+  </text>
+
+  <text x="80" y="280"
+        font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif"
+        font-size="56" font-weight="600"
+        fill="#ffffff">
+    An entire team. In your terminal.
+  </text>
+
+  <text x="80" y="360"
+        font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif"
+        font-size="32" font-weight="400"
+        fill="#ffffff" opacity="0.85">
+    Your AI just got 100x more capable. Free. MIT. 90 seconds.
+  </text>
+
+  <g font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="700" fill="#ffffff">
+    <text x="80" y="490" font-size="80">59</text>
+    <text x="80" y="540" font-size="22" opacity="0.7">SKILLS</text>
+
+    <text x="280" y="490" font-size="80">34</text>
+    <text x="280" y="540" font-size="22" opacity="0.7">COMMANDS</text>
+
+    <text x="510" y="490" font-size="80">34</text>
+    <text x="510" y="540" font-size="22" opacity="0.7">AGENTS</text>
+
+    <text x="710" y="490" font-size="80">3</text>
+    <text x="710" y="540" font-size="22" opacity="0.7">SYSTEMS</text>
+
+    <text x="850" y="490" font-size="80">4</text>
+    <text x="850" y="540" font-size="22" opacity="0.7">ADAPTERS</text>
+  </g>
+
+  <text x="80" y="610"
+        font-family="'SF Mono', 'Menlo', 'Monaco', 'Courier New', monospace"
+        font-size="22" fill="#ffffff" opacity="0.6">
+    github.com/rijulkalra2000/coco
+  </text>
+</svg>

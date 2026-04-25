@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1d3a"/>
+      <stop offset="100%" stop-color="#1a73e8"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="240" height="240" rx="48" fill="url(#bg)"/>
+  <text x="120" y="148"
+        font-family="'SF Mono', 'Menlo', 'Monaco', 'Courier New', monospace"
+        font-size="120" font-weight="700"
+        text-anchor="middle" fill="#ffffff"
+        letter-spacing="-6">
+    co
+  </text>
+  <text x="120" y="200"
+        font-family="'SF Mono', 'Menlo', 'Monaco', 'Courier New', monospace"
+        font-size="20" font-weight="500"
+        text-anchor="middle" fill="#ffffff"
+        opacity="0.7"
+        letter-spacing="2">
+    coco.dev
+  </text>
+</svg>
