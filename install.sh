@@ -72,4 +72,4 @@ ARGS=()
 [[ -n "$DRY_RUN" ]] && ARGS+=("$DRY_RUN")
 [[ -n "$SYSTEMS" ]] && ARGS+=("--systems" "$SYSTEMS")
 
-bash "$ADAPTER_DIR/install.sh" "${ARGS[@]}"
+bash "$ADAPTER_DIR/install.sh" ${ARGS[@]+"${ARGS[@]}"}
